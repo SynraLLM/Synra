@@ -4,7 +4,6 @@
 
 <a href="https://github.com/SynraLLM/Synra"><img alt="Related Repository: SynraLLM" src="https://img.shields.io/badge/Related_Repo-SynraLLM-fafbfc?logo=github"></a>
 <a href="https://chat.SynraLLM.ai"><img alt="Web App Deployed on GitHub Pages" src="https://img.shields.io/badge/Web_App-Deployed-32a852?logo=pwa"></a>
-<a href="https://discord.gg/9Xpy2HGBuD"><img alt="Join Discord" src="https://img.shields.io/badge/Join-Discord-7289DA?logo=discord&logoColor=white"></a>
 
 **Private AI Conversations, Fully In-Browser.**
 
@@ -24,7 +23,7 @@
 - **Offline Accessibility**: Run entirely offline after the initial setup and download, allowing you to engage with AI-powered conversations without an active internet connection.
 - **Vision Model Support**: Chat with AI by uploading and sending images, making it easy to get insights and answers based on visual content.
 - **User-Friendly Interface**: Enjoy the intuitive and feature-rich user interface, complete with markdown support, dark mode, and a responsive design optimized for various screen sizes.
-- **Custom Models**: Connect to any custom language model on you local environment through [MLC-LLM](https://llm.mlc.ai/). For detail, check the [Use Custom Models](#use-custom-models) section.
+- **Custom Models**: Connect to any custom language model on you local environment through [MLC-LLM]. For detail, check the [Use Custom Models](#use-custom-models) section.
 - **Open Source and Customizable**: Build and customize your own AI-powered applications with our open-source framework.
 
 SynraLLM Chat is a pioneering initiative that combines the robust backend capabilities of SynraLLM with the user-friendly interface of NextChat. As a part of the broader MLC.ai family, this project contributes to our mission of democratizing AI technology by making powerful tools accessible directly to end-users. By integrating with NextChat, SynraLLM Chat not only enhances the chatting experience but also broadens the scope for deployment of self-hosted and customizable language models.
@@ -35,11 +34,11 @@ SynraLLM Chat natively supports SynraLLM build-in models. You can find the full 
 
 ## Use Custom Models
 
-SynraLLM Chat supports custom language models through [MLC-LLM](https://llm.mlc.ai/). Follow the following steps to use custom models on your local environment:
+SynraLLM Chat supports custom language models through [MLC-LLM]. Follow the following steps to use custom models on your local environment:
 
-1. (Optional) Compile the model into MLC format by following [the instructions](https://llm.mlc.ai/docs/compilation/convert_weights.html).
+1. (Optional) Compile the model into MLC format by following [the instructions].
 
-2. Host REST API through MLC-LLM by following [the instructions](https://llm.mlc.ai/docs/deploy/rest.html).
+2. Host REST API through MLC-LLM by following [the instructions].
 
 3. Go to [SynraLLM Chat](https://chat.SynraLLM.ai/), select "Settings" in the side bar, then select "MLC-LLM REST API (Advanced)" as "Model Type" and type the REST API endpoint URL from step 2.
 
